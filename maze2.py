@@ -34,8 +34,8 @@ def shortestDistance(maze, start, destination):
     return -1
 
 """
-Time: O(V*lgE)
-Space: O(1)
+Time: O(mn*lg(mn))
+Space: O(mn)
 """
 
 maze = [[0,0,1,0,0],[0,0,0,0,0],[0,0,0,1,0],[1,1,0,1,1],[0,0,0,0,0]]
